@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts'
 import { motion } from 'framer-motion'
-import { Shield, Target, Activity, Terminal, Wifi, AlertTriangle, Radar } from 'lucide-react'
+import { Shield, Target, Activity, Terminal, Wifi, AlertTriangle, Radar, Crosshair } from 'lucide-react'
 
 // Mock History Generator (Until we have a DB)
 const generateMockHistory = (base, volatility) => {
@@ -78,6 +78,22 @@ function App() {
     }
     fetchAlpha()
     const interval = setInterval(fetchAlpha, 60000) // Every minute
+    return () => clearInterval(interval)
+  }, [])
+
+  // Fetch Gear
+  const [gearList, setGearList] = useState([])
+  useEffect(() => {
+    const fetchGear = async () => {
+      try {
+        const response = await axios.get('/api/gear')
+        setGearList(response.data)
+      } catch (error) {
+        console.error("Error fetching gear:", error)
+      }
+    }
+    fetchGear()
+    const interval = setInterval(fetchGear, 300000) // Every 5 minutes
     return () => clearInterval(interval)
   }, [])
 
@@ -185,6 +201,32 @@ function App() {
                 </ResponsiveContainer>
               </div>
             </div>
+          </div>
+        </motion.div>
+
+        {/* Module: Gear Sniper */}
+        <motion.div variants={item} className="bg-black/60 border border-green-900/50 backdrop-blur-sm rounded-xl p-6 hover:border-orange-500/50 transition-colors">
+          <h2 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
+            <span className="text-orange-500">///</span> GEAR SNIPER
+          </h2>
+          <div className="space-y-3">
+             {gearList.length === 0 ? (
+               <div className="text-orange-500/50 text-sm animate-pulse">SCANNING MARKET...</div>
+             ) : (
+               gearList.map((item, i) => (
+                 <a key={i} href={item.url} target="_blank" rel="noreferrer" className="block group">
+                   <div className="flex justify-between items-center p-2 bg-orange-900/10 rounded border border-orange-900/30 hover:bg-orange-900/30 transition-all">
+                     <div className="flex items-center gap-3">
+                       <Crosshair className="w-4 h-4 text-orange-500 group-hover:rotate-45 transition-transform" />
+                       <div>
+                         <div className="text-white font-bold text-sm truncate w-48">{item.title}</div>
+                         <div className="text-[10px] text-orange-300">AR15.COM MARKET</div>
+                       </div>
+                     </div>
+                   </div>
+                 </a>
+               ))
+             )}
           </div>
         </motion.div>
 
