@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts'
 import { motion } from 'framer-motion'
-import { Shield, Target, Activity, Terminal, Wifi, AlertTriangle } from 'lucide-react'
+import { Shield, Target, Activity, Terminal, Wifi, AlertTriangle, Radar } from 'lucide-react'
 
 // Mock History Generator (Until we have a DB)
 const generateMockHistory = (base, volatility) => {
@@ -62,6 +62,22 @@ function App() {
     }
     fetchAmmo()
     const interval = setInterval(fetchAmmo, 3600000)
+    return () => clearInterval(interval)
+  }, [])
+
+  // Fetch Alpha
+  const [alphaTokens, setAlphaTokens] = useState([])
+  useEffect(() => {
+    const fetchAlpha = async () => {
+      try {
+        const response = await axios.get('/api/alpha')
+        setAlphaTokens(response.data)
+      } catch (error) {
+        console.error("Error fetching alpha:", error)
+      }
+    }
+    fetchAlpha()
+    const interval = setInterval(fetchAlpha, 60000) // Every minute
     return () => clearInterval(interval)
   }, [])
 
@@ -169,6 +185,36 @@ function App() {
                 </ResponsiveContainer>
               </div>
             </div>
+          </div>
+        </motion.div>
+
+        {/* Module: Alpha Radar */}
+        <motion.div variants={item} className="bg-black/60 border border-green-900/50 backdrop-blur-sm rounded-xl p-6 hover:border-purple-500/50 transition-colors">
+          <h2 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
+            <span className="text-purple-500">///</span> ALPHA RADAR
+          </h2>
+          <div className="space-y-3">
+             {alphaTokens.length === 0 ? (
+               <div className="text-purple-500/50 text-sm animate-pulse">SCANNING CHAIN...</div>
+             ) : (
+               alphaTokens.map((token, i) => (
+                 <a key={i} href={token.url} target="_blank" rel="noreferrer" className="block group">
+                   <div className="flex justify-between items-center p-2 bg-purple-900/10 rounded border border-purple-900/30 hover:bg-purple-900/30 transition-all">
+                     <div className="flex items-center gap-3">
+                       <Radar className="w-4 h-4 text-purple-500 group-hover:animate-spin" />
+                       <div>
+                         <div className="text-white font-bold text-sm">{token.symbol}</div>
+                         <div className="text-[10px] text-purple-300 truncate w-24">{token.name}</div>
+                       </div>
+                     </div>
+                     <div className="text-right">
+                       <div className="text-white font-mono text-sm">${parseFloat(token.price).toFixed(6)}</div>
+                       <div className="text-[10px] text-gray-500">LIQ: ${(token.liquidity / 1000).toFixed(1)}K</div>
+                     </div>
+                   </div>
+                 </a>
+               ))
+             )}
           </div>
         </motion.div>
 
