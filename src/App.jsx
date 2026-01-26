@@ -28,13 +28,31 @@ function App() {
     return () => clearInterval(interval)
   }, [])
 
+  // Fetch Ammo Prices
+  const [ammoPrices, setAmmoPrices] = useState({ '9mm': '...', '5.56': '...', '.223': '...' })
+  
+  useEffect(() => {
+    const fetchAmmo = async () => {
+      try {
+        const response = await axios.get('/api/ammo')
+        setAmmoPrices(response.data)
+      } catch (error) {
+        console.error("Error fetching ammo:", error)
+      }
+    }
+    fetchAmmo() // Initial fetch
+    // Check every hour (ammo prices don't move fast)
+    const interval = setInterval(fetchAmmo, 3600000) 
+    return () => clearInterval(interval)
+  }, [])
+
   return (
     <div className="min-h-screen bg-maximus-bg text-maximus-text p-8 font-mono">
       {/* Header */}
       <header className="flex justify-between items-center mb-12 border-b border-gray-800 pb-4">
         <div>
           <h1 className="text-3xl font-bold tracking-tighter">MAXIMUS <span className="text-maximus-shield">COMMAND</span></h1>
-          <p className="text-sm text-gray-500">SYSTEM: ONLINE | v1.1.0 (Live Data)</p>
+          <p className="text-sm text-gray-500">SYSTEM: ONLINE | v1.2.0 (Live Supply)</p>
         </div>
         <div className="text-right">
           <div className="text-2xl">{time.toLocaleTimeString([], {hour12: false})} UTC</div>
@@ -96,22 +114,22 @@ function App() {
              <div className="flex justify-between items-center p-2 bg-black/30 rounded">
               <span className="font-bold">9mm</span>
               <div className="text-right">
-                <div className="text-green-400">$199</div>
-                <div className="text-xs text-gray-500">Baseline</div>
+                <div className="text-green-400">{ammoPrices['9mm']}</div>
+                <div className="text-xs text-gray-500">Lowest Case</div>
               </div>
             </div>
             <div className="flex justify-between items-center p-2 bg-black/30 rounded">
               <span className="font-bold">5.56</span>
               <div className="text-right">
-                <div className="text-red-400">$442</div>
-                <div className="text-xs text-gray-500">High</div>
+                <div className="text-red-400">{ammoPrices['5.56']}</div>
+                <div className="text-xs text-gray-500">Lowest Case</div>
               </div>
             </div>
             <div className="flex justify-between items-center p-2 bg-black/30 rounded">
               <span className="font-bold">.223</span>
               <div className="text-right">
-                <div className="text-yellow-400">$409</div>
-                <div className="text-xs text-gray-500">Elevated</div>
+                <div className="text-yellow-400">{ammoPrices['.223']}</div>
+                <div className="text-xs text-gray-500">Lowest Case</div>
               </div>
             </div>
           </div>
