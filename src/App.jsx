@@ -1,11 +1,31 @@
 import { useState, useEffect } from 'react'
+import axios from 'axios'
 
 function App() {
   const [time, setTime] = useState(new Date())
+  const [solPrice, setSolPrice] = useState(null)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     const timer = setInterval(() => setTime(new Date()), 1000)
     return () => clearInterval(timer)
+  }, [])
+
+  // Fetch SOL Price
+  useEffect(() => {
+    const fetchPrice = async () => {
+      try {
+        const response = await axios.get('https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd')
+        setSolPrice(response.data.solana.usd)
+        setLoading(false)
+      } catch (error) {
+        console.error("Error fetching price:", error)
+      }
+    }
+
+    fetchPrice()
+    const interval = setInterval(fetchPrice, 30000) // Update every 30s
+    return () => clearInterval(interval)
   }, [])
 
   return (
@@ -14,7 +34,7 @@ function App() {
       <header className="flex justify-between items-center mb-12 border-b border-gray-800 pb-4">
         <div>
           <h1 className="text-3xl font-bold tracking-tighter">MAXIMUS <span className="text-maximus-shield">COMMAND</span></h1>
-          <p className="text-sm text-gray-500">SYSTEM: ONLINE | v1.0.0</p>
+          <p className="text-sm text-gray-500">SYSTEM: ONLINE | v1.1.0 (Live Data)</p>
         </div>
         <div className="text-right">
           <div className="text-2xl">{time.toLocaleTimeString([], {hour12: false})} UTC</div>
@@ -36,10 +56,29 @@ function App() {
               <span className="text-gray-400">Strategy</span>
               <span>Shield (80%) / Sword (20%)</span>
             </div>
+            <div className="flex justify-between items-center">
+              <span className="text-gray-400">SOL Price</span>
+              <span className={`font-bold ${loading ? 'animate-pulse' : ''}`}>
+                {loading ? '...' : `$${solPrice}`}
+              </span>
+            </div>
             <div className="flex justify-between">
               <span className="text-gray-400">Position</span>
-              <span className="text-red-400">SHORT SOL (5x)</span>
+              <span className="text-red-400">SHORT SOL (5x) @ $121.21</span>
             </div>
+            
+            {/* Live PnL Calculation */}
+            {!loading && (
+              <div className="mt-2 p-2 bg-black/50 rounded border border-gray-800">
+                <div className="flex justify-between text-sm">
+                  <span>PnL (Est):</span>
+                  <span className={solPrice < 121.21 ? 'text-green-500' : 'text-red-500'}>
+                    {((121.21 - solPrice) * 5 * (200 / 121.21)).toFixed(2)} USD
+                  </span>
+                </div>
+              </div>
+            )}
+
             <div className="flex justify-between text-2xl font-bold mt-4 pt-4 border-t border-gray-800">
               <span className="text-gray-400">Equity</span>
               <span>$1,000.00</span>
