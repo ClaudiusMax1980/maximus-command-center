@@ -88,13 +88,41 @@ function App() {
     const fetchAlpha = async () => {
       try {
         const response = await axios.get('/api/alpha')
-        setAlphaTokens(response.data)
+        if (Array.isArray(response.data)) {
+            setAlphaTokens(response.data)
+        } else {
+             console.warn("Alpha data is not array", response.data)
+             setAlphaTokens([])
+        }
       } catch (error) {
         console.error("Error fetching alpha:", error)
+        setAlphaTokens([])
       }
     }
     fetchAlpha()
     const interval = setInterval(fetchAlpha, 60000) // Every minute
+    return () => clearInterval(interval)
+  }, [])
+
+  // Fetch Gear
+  const [gearList, setGearList] = useState([])
+  useEffect(() => {
+    const fetchGear = async () => {
+      try {
+        const response = await axios.get('/api/gear')
+        if (Array.isArray(response.data)) {
+            setGearList(response.data)
+        } else {
+             console.warn("Gear data is not array", response.data)
+             setGearList([])
+        }
+      } catch (error) {
+        console.error("Error fetching gear:", error)
+        setGearList([])
+      }
+    }
+    fetchGear()
+    const interval = setInterval(fetchGear, 300000) // Every 5 minutes
     return () => clearInterval(interval)
   }, [])
 
