@@ -54,14 +54,31 @@ function App() {
   useEffect(() => {
     const fetchAmmo = async () => {
       try {
-        const response = await axios.get('/api/ammo')
-        setAmmoPrices(response.data)
+        // Fetch static JSON file instead of API
+        const response = await axios.get('/ammo_data.json')
+        const data = response.data;
+        
+        // Transform array to object for display
+        // [{ caliber: '9mm', cost1000: '$65.00...' }] -> { '9mm': '$65.00' }
+        const prices = { '9mm': '...', '5.56': '...', '.223': '...' };
+        
+        if (Array.isArray(data)) {
+            // Find cheapest for each caliber
+            ['9mm', '5.56', '.223'].forEach(cal => {
+                const deal = data.find(d => d.caliber === cal);
+                if (deal) {
+                    // Extract just the price part "$65.00" from "$65.00 (+ Shipping)"
+                    prices[cal] = deal.cost1000.split(' ')[0];
+                }
+            });
+        }
+        setAmmoPrices(prices)
       } catch (error) {
         console.error("Error fetching ammo:", error)
       }
     }
     fetchAmmo()
-    const interval = setInterval(fetchAmmo, 3600000)
+    const interval = setInterval(fetchAmmo, 60000) // Check every minute (it's just a static file now)
     return () => clearInterval(interval)
   }, [])
 
