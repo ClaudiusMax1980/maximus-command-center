@@ -98,19 +98,19 @@ function App() {
     return () => clearInterval(interval)
   }, [])
 
-  // Fetch Gear
-  const [gearList, setGearList] = useState([])
+  // Fetch X Data
+  const [xFeed, setXFeed] = useState([])
   useEffect(() => {
-    const fetchGear = async () => {
+    const fetchX = async () => {
       try {
-        const response = await axios.get('/api/gear')
-        setGearList(response.data)
+        const response = await axios.get('/x_data.json')
+        setXFeed(response.data)
       } catch (error) {
-        console.error("Error fetching gear:", error)
+        console.error("Error fetching x feed:", error)
       }
     }
-    fetchGear()
-    const interval = setInterval(fetchGear, 300000) // Every 5 minutes
+    fetchX()
+    const interval = setInterval(fetchX, 60000)
     return () => clearInterval(interval)
   }, [])
 
@@ -336,23 +336,28 @@ function App() {
            <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
             <span className="text-blue-500">///</span> INTEL WIRE
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="flex gap-4 p-4 bg-blue-900/10 border border-blue-900/30 rounded">
-              <div className="mt-1"><Wifi className="w-5 h-5 text-blue-400" /></div>
-              <div>
-                <div className="font-bold text-blue-300 text-sm mb-1">@ClaudiusMax1980</div>
-                <div className="text-gray-400 text-sm">"We are live and alive!"</div>
-                <div className="text-xs text-blue-800 mt-2">LINK STATUS: ACTIVE</div>
-              </div>
-            </div>
-             <div className="flex gap-4 p-4 bg-gray-900/50 border border-gray-800 rounded opacity-60">
-              <div className="mt-1"><Terminal className="w-5 h-5 text-gray-500" /></div>
-              <div>
-                <div className="font-bold text-gray-400 text-sm mb-1">SYSTEM LOG</div>
-                <div className="text-gray-500 text-sm font-mono">&gt; Ammo Scraper API initialized... OK</div>
-                 <div className="text-gray-500 text-sm font-mono">&gt; Crypto Websocket... OK</div>
-              </div>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+             {xFeed.length === 0 ? (
+               <div className="col-span-full text-blue-500/50 text-sm animate-pulse">LISTENING TO THE ETHER...</div>
+             ) : (
+               xFeed.slice(0, 6).map((tweet, i) => (
+                 <a key={i} href={tweet.link} target="_blank" rel="noreferrer" className="block group h-full">
+                   <div className="flex gap-4 p-4 bg-blue-900/10 border border-blue-900/30 rounded h-full hover:bg-blue-900/20 transition-all">
+                     <div className="mt-1 flex-shrink-0"><Wifi className="w-5 h-5 text-blue-400" /></div>
+                     <div className="flex flex-col justify-between w-full">
+                       <div>
+                         <div className="font-bold text-blue-300 text-sm mb-1">{tweet.handle}</div>
+                         <div className="text-gray-400 text-xs line-clamp-3 leading-relaxed">"{tweet.text}"</div>
+                       </div>
+                       <div className="text-[10px] text-blue-800 mt-3 flex justify-between">
+                         <span>LINK STATUS: ACTIVE</span>
+                         <span>{new Date(tweet.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
+                       </div>
+                     </div>
+                   </div>
+                 </a>
+               ))
+             )}
           </div>
         </motion.div>
 
