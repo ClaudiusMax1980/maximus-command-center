@@ -1,5 +1,33 @@
 [
   {
+    "id": "2016268981196272126",
+    "handle": "@betterhn50",
+    "text": "Clawdbot Renames to Moltbot \nhttps://\ngithub.com/moltbot/moltbo\nt/commit/6d16a658e5ebe6ce15856565a47090d5b9d5dfb6\n… (\nhttps://\nnews.ycombinator.com/item?id=467838\n63\n…)",
+    "link": "https://x.com/betterhn50/status/2016268981196272126",
+    "timestamp": "2026-01-27T21:56:00.000Z"
+  },
+  {
+    "id": "2016268953081749886",
+    "handle": "@CryptoPicard",
+    "text": "No matter how many instructions/prompts I give, I cant get Clawdbot to be as proactive as yours. \n\nIt just waits for my instructions unless I specifically schedule something. \n\nEven after going over this oversight with Clawdbot, it admits it was wrong, but goes right back to",
+    "link": "https://x.com/CryptoPicard/status/2016268953081749886",
+    "timestamp": "2026-01-27T21:55:53.000Z"
+  },
+  {
+    "id": "2016268938871509043",
+    "handle": "@shampoo_capital",
+    "text": "I bet \n@_opencv_\n would have loved to see Clawdbot",
+    "link": "https://x.com/shampoo_capital/status/2016268938871509043",
+    "timestamp": "2026-01-27T21:55:50.000Z"
+  },
+  {
+    "id": "2016268894735106493",
+    "handle": "@mr_the_dooom",
+    "text": "Should’ve renamed clawdbot to mr pinchy…",
+    "link": "https://x.com/mr_the_dooom/status/2016268894735106493",
+    "timestamp": "2026-01-27T21:55:39.000Z"
+  },
+  {
     "id": "2016268815592530041",
     "handle": "@__morse",
     "text": "Introducing Kimaki: Clawdbot for teams, built on top of opencode & Discord\n\n┣ run `npx kimaki` inside your Mac minis\n┣ install it in as many computers as you want\n┣ control a swarm of bots inside Discord\n┗ collaborate with agents & team mates",
@@ -12,12 +40,5 @@
     "text": "Link with tutorial:  \n\nhttps://\nmedium.com/@gemQueenx/cla\nwdbot-ai-installation-guide-usage-tutorial-real-world-use-cases-and-expert-tips-tricks-81fc03228a22\n…\n\nAnd it's a \"simple command\" that should install in 5 minutes :-) \n\nnpm install -g clawdbot@latest\n\nBut I'm still in the phase of installing dependencies and currently on the latest version of Fedora (the 42).",
     "link": "https://x.com/CogitaTuti/status/2016268746927567220",
     "timestamp": "2026-01-27T21:55:04.000Z"
-  },
-  {
-    "id": "2016268726836900230",
-    "handle": "@johnbuildss",
-    "text": "Clawdbot being worse than people thought",
-    "link": "https://x.com/johnbuildss/status/2016268726836900230",
-    "timestamp": "2026-01-27T21:54:59.000Z"
   }
 ]
