@@ -104,9 +104,15 @@ function App() {
     const fetchX = async () => {
       try {
         const response = await axios.get('/x_data.json')
-        setXFeed(response.data)
+        if (Array.isArray(response.data)) {
+            setXFeed(response.data)
+        } else {
+            console.warn("x_data.json is not an array:", response.data)
+            setXFeed([])
+        }
       } catch (error) {
         console.error("Error fetching x feed:", error)
+        setXFeed([])
       }
     }
     fetchX()
