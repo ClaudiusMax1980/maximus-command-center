@@ -1,37 +1,23 @@
 [
   {
-    "id": "2016261167681818757",
-    "handle": "@Androidheadline",
-    "text": "Moltbot: The Viral AI Agent That Can Control Your Entire Computer",
-    "link": "https://x.com/Androidheadline/status/2016261167681818757",
-    "timestamp": "2026-01-27T21:24:57.000Z"
+    "id": "2016268815592530041",
+    "handle": "@__morse",
+    "text": "Introducing Kimaki: Clawdbot for teams, built on top of opencode & Discord\n\n┣ run `npx kimaki` inside your Mac minis\n┣ install it in as many computers as you want\n┣ control a swarm of bots inside Discord\n┗ collaborate with agents & team mates",
+    "link": "https://x.com/__morse/status/2016268815592530041",
+    "timestamp": "2026-01-27T21:55:20.000Z"
   },
   {
-    "id": "2016261167132377144",
-    "handle": "@danielkempe",
-    "text": "Can we use it with moltbot yet? (Clawdbot)",
-    "link": "https://x.com/danielkempe/status/2016261167132377144",
-    "timestamp": "2026-01-27T21:24:57.000Z"
+    "id": "2016268746927567220",
+    "handle": "@CogitaTuti",
+    "text": "Link with tutorial:  \n\nhttps://\nmedium.com/@gemQueenx/cla\nwdbot-ai-installation-guide-usage-tutorial-real-world-use-cases-and-expert-tips-tricks-81fc03228a22\n…\n\nAnd it's a \"simple command\" that should install in 5 minutes :-) \n\nnpm install -g clawdbot@latest\n\nBut I'm still in the phase of installing dependencies and currently on the latest version of Fedora (the 42).",
+    "link": "https://x.com/CogitaTuti/status/2016268746927567220",
+    "timestamp": "2026-01-27T21:55:04.000Z"
   },
   {
-    "id": "2016261121280508373",
-    "handle": "@NguyenAnhThao19",
-    "text": "yo clawdbot looks sick! austin griffith cooking fr. unleashed it yet?",
-    "link": "https://x.com/NguyenAnhThao19/status/2016261121280508373",
-    "timestamp": "2026-01-27T21:24:46.000Z"
-  },
-  {
-    "id": "2016261108739539009",
-    "handle": "@HihiHehe1368",
-    "text": "私は、この種のAIが登場するのは少なくとも10年先のことだと思っていました。\n\nトニー・スタークが出てくるSFの世界のような話だと。\nしかし…それはここ2週間の間に、静かに姿を現しました。\n\nその名は「Clawdbot」です。\n\n最初、それを見た時は大したことではないと思っていました。",
-    "link": "https://x.com/HihiHehe1368/status/2016261108739539009",
-    "timestamp": "2026-01-27T21:24:43.000Z"
-  },
-  {
-    "id": "2016261089517044218",
-    "handle": "@Slutsky___",
-    "text": "Clawdbot 第 2 天 \n我把自己的 WHOOP + Rize 接進去 → 它會看我的恢復/專注節奏，然後用行事曆 + 我的身體數據幫我安排。\n\ngithub link 在英文 post 裡，可以自己玩玩看\n\n還在實驗中  跪求大神分享自己的 use case",
-    "link": "https://x.com/Slutsky___/status/2016261089517044218",
-    "timestamp": "2026-01-27T21:24:38.000Z"
+    "id": "2016268726836900230",
+    "handle": "@johnbuildss",
+    "text": "Clawdbot being worse than people thought",
+    "link": "https://x.com/johnbuildss/status/2016268726836900230",
+    "timestamp": "2026-01-27T21:54:59.000Z"
   }
 ]
