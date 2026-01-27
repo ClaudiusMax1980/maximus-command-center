@@ -1,0 +1,74 @@
+[
+  {
+    "caliber": "9mm",
+    "retailer": "Brass Kisses",
+    "cpr": "6.5¢ / rd",
+    "shipping": "5",
+    "cost1000": "$65.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/356251488054"
+  },
+  {
+    "caliber": "9mm",
+    "retailer": "1st Round Ammunition",
+    "cpr": "6.5¢ / rd",
+    "shipping": "4",
+    "cost1000": "$65.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/240089401957"
+  },
+  {
+    "caliber": "9mm",
+    "retailer": "Gman Sporting Arms",
+    "cpr": "10.0¢ / rd",
+    "shipping": "3",
+    "cost1000": "$100.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/214928798004"
+  },
+  {
+    "caliber": "5.56",
+    "retailer": "1st Round Ammunition",
+    "cpr": "19.8¢ / rd",
+    "shipping": "4",
+    "cost1000": "$198.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/267987576556"
+  },
+  {
+    "caliber": "5.56",
+    "retailer": "Brass Kisses",
+    "cpr": "24.5¢ / rd",
+    "shipping": "5",
+    "cost1000": "$245.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/356253370467"
+  },
+  {
+    "caliber": "5.56",
+    "retailer": "Gman Sporting Arms",
+    "cpr": "24.6¢ / rd",
+    "shipping": "3",
+    "cost1000": "$246.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/214891563135"
+  },
+  {
+    "caliber": ".223",
+    "retailer": "1st Round Ammunition",
+    "cpr": "19.8¢ / rd",
+    "shipping": "4",
+    "cost1000": "$198.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/268032126733"
+  },
+  {
+    "caliber": ".223",
+    "retailer": "Brass Kisses",
+    "cpr": "23.6¢ / rd",
+    "shipping": "5",
+    "cost1000": "$236.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/356251488063"
+  },
+  {
+    "caliber": ".223",
+    "retailer": "Fast Ammo",
+    "cpr": "23.7¢ / rd",
+    "shipping": "3",
+    "cost1000": "$237.00 (+ Shipping)",
+    "link": "https://ammoseek.com/share/a/269424800305"
+  }
+]
