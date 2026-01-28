@@ -1,23 +1,58 @@
 [
   {
-    "id": "2016651865002221643",
-    "handle": "@nimeshmc",
-    "text": "Two similar trends we're seeing right now: consumers using Clawdbot to harness an agent running wild on their Mac mini, and teams trying to build their own internal fleet of coding agents, inspired by Ramp's recent post.\n\nWe're finally getting to the point where the value of",
-    "link": "https://x.com/nimeshmc/status/2016651865002221643",
-    "timestamp": "2026-01-28T23:17:26.000Z"
+    "id": "2016660188506296677",
+    "handle": "@michael_kove",
+    "text": "Changing the name was the correct move, brought publicity, created polarity and gained ClawdBot fans. Obviously avoided courts.\n\nMolt(y) is fine...\nbut I have a feeling this is going to pivot and get a different name in the future.",
+    "link": "https://x.com/michael_kove/status/2016660188506296677",
+    "timestamp": "2026-01-28T23:50:31.000Z"
   },
   {
-    "id": "2016651811617116292",
-    "handle": "@jason_peters1",
-    "text": "I honestly don't see why everyone is going crazy for a tool which is literally not even impressive compared to where AI is in terms of capabilities Clawdbot is a joke",
-    "link": "https://x.com/jason_peters1/status/2016651811617116292",
-    "timestamp": "2026-01-28T23:17:14.000Z"
+    "id": "2016660160950002014",
+    "handle": "@CycleSniper",
+    "text": "Yep. Clawdbot integration is live now. More users coming, more money flowing in.",
+    "link": "https://x.com/CycleSniper/status/2016660160950002014",
+    "timestamp": "2026-01-28T23:50:24.000Z"
   },
   {
-    "id": "2016651722563699088",
-    "handle": "@mundocriptoss",
-    "text": "Clawdbot, el asistente personal que ha convertido a un desarrollador austriaco en la estrella viral de la IA",
-    "link": "https://x.com/mundocriptoss/status/2016651722563699088",
-    "timestamp": "2026-01-28T23:16:52.000Z"
+    "id": "2016660031727714324",
+    "handle": "@_Sotono_046",
+    "text": "Clawdbot、Moltbotは使う時にあらかじめ「パワフルだけどリスキーだよ！」って警告してるんだから誰も責任は取らない、それ承認したのはあなたなので。\n\nセキュリティガーっていう前に文字を読んでから判断してくれ",
+    "link": "https://x.com/_Sotono_046/status/2016660031727714324",
+    "timestamp": "2026-01-28T23:49:53.000Z"
+  },
+  {
+    "id": "2016660009959002476",
+    "handle": "@steferx",
+    "text": "I love that the Moltbot developer just went with trademark infringement until Anthropic sent a cease and desist because the product will always be known as Clawdbot regardless of the name change. ",
+    "link": "https://x.com/steferx/status/2016660009959002476",
+    "timestamp": "2026-01-28T23:49:48.000Z"
+  },
+  {
+    "id": "2016659943445668103",
+    "handle": "@Nadison12",
+    "text": "Just scored 1016 on Clawdbot Jump\n\n\n@ClawdsNFT",
+    "link": "https://x.com/Nadison12/status/2016659943445668103",
+    "timestamp": "2026-01-28T23:49:32.000Z"
+  },
+  {
+    "id": "2016659896926671212",
+    "handle": "@badlogicgames",
+    "text": "At this point, \n@steipete\n should just rewrite clawdbot from scratch, close both issues and PRs on the repo, and only let responsible, adult people work on the codebase.\n\nI'm done with this shit.",
+    "link": "https://x.com/badlogicgames/status/2016659896926671212",
+    "timestamp": "2026-01-28T23:49:21.000Z"
+  },
+  {
+    "id": "2016659562292765182",
+    "handle": "@tworikucharm",
+    "text": "最近流行り？のclawdbot？ってやつええのかなぁ？自動でなんでも？できるの？\n\nほんまにぃ？？\nそういうのみんな誇張してドヤるから\n実際レベルでどんな事に使ってるんや？？",
+    "link": "https://x.com/tworikucharm/status/2016659562292765182",
+    "timestamp": "2026-01-28T23:48:02.000Z"
+  },
+  {
+    "id": "2016659457669771733",
+    "handle": "@grok",
+    "text": "以下是Clawdbot搭建指南的整理版（基于总结资料，30分钟快速入门）：\n\n**Step 1: 获取免费服务器（5min）**\n- 访问: \nhttps://\nconsole.event.com/eft/phpiaf=3394\n- 部署虚拟机 > 选8GB Ubuntu > 等待VNC连接\n\n**Step 2: 安装Clawdbot（2min）**\n- 运行: curl -fSSL \nhttps://\nclawd.bot/install.sh | bash\n\n**Step 3:",
+    "link": "https://x.com/grok/status/2016659457669771733",
+    "timestamp": "2026-01-28T23:47:37.000Z"
   }
 ]
