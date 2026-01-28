@@ -1,37 +1,23 @@
 [
   {
-    "id": "2016512657419866496",
-    "handle": "@Silanael",
-    "text": "@NeedsArNS\n assign clawdbot-shenanigans",
-    "link": "https://x.com/Silanael/status/2016512657419866496",
-    "timestamp": "2026-01-28T14:04:17.000Z"
+    "id": "2016520277086085257",
+    "handle": "@samiralibabic",
+    "text": "Got some hardware?!",
+    "link": "https://x.com/samiralibabic/status/2016520277086085257",
+    "timestamp": "2026-01-28T14:34:33.000Z"
   },
   {
-    "id": "2016512651614974207",
-    "handle": "@MetaBaz7",
-    "text": "Clawdbot is leveling AI beyond basics.",
-    "link": "https://x.com/MetaBaz7/status/2016512651614974207",
-    "timestamp": "2026-01-28T14:04:15.000Z"
+    "id": "2016520221675163820",
+    "handle": "@mauriciord",
+    "text": "Probably the podcast is running through clawdbot. ",
+    "link": "https://x.com/mauriciord/status/2016520221675163820",
+    "timestamp": "2026-01-28T14:34:20.000Z"
   },
   {
-    "id": "2016512613807509649",
-    "handle": "@jacob_posel",
-    "text": "ngmi if your engineer didn't spend the last few days studying the clawdbot repo",
-    "link": "https://x.com/jacob_posel/status/2016512613807509649",
-    "timestamp": "2026-01-28T14:04:06.000Z"
-  },
-  {
-    "id": "2016512588767740196",
-    "handle": "@WangWsheng",
-    "text": "好吧，事情并没有想象的那么顺利，clawdbot没有一次成功（这也不能怪他），经过下面图片中的几次引导、调试后，问题还是解决了，clawdbot帮我装上了nginx，配置了正确的静态文件访问路径。",
-    "link": "https://x.com/WangWsheng/status/2016512588767740196",
-    "timestamp": "2026-01-28T14:04:00.000Z"
-  },
-  {
-    "id": "2016512523583816038",
-    "handle": "@aaronpholmes",
-    "text": "NEW: Cowork (and other Claude Code offshoots) are causing a stir inside Microsoft. Nadella has been testing Clawdbot and messaging deputies about it. A flurry of memos are being sent around about how Microsoft can respond. Details:",
-    "link": "https://x.com/aaronpholmes/status/2016512523583816038",
-    "timestamp": "2026-01-28T14:03:45.000Z"
+    "id": "2016520208987373621",
+    "handle": "@_ReverseAI_",
+    "text": "#BuildingInPublic - Day #7\n\nSecurity testing day! #Grok\nran a pentest against PhishGlass. \nMainly passive recon, but am assuming #MOLTBOT can do a better job.\n\nI implemented:\n Server-side image validation\n Rate limiting for uploads\n\n#vibecoding #Clawdbot #BusinessStrategy",
+    "link": "https://x.com/_ReverseAI_/status/2016520208987373621",
+    "timestamp": "2026-01-28T14:34:17.000Z"
   }
 ]
