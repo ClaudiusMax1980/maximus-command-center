@@ -1,58 +1,44 @@
 [
   {
-    "id": "2016660188506296677",
-    "handle": "@michael_kove",
-    "text": "Changing the name was the correct move, brought publicity, created polarity and gained ClawdBot fans. Obviously avoided courts.\n\nMolt(y) is fine...\nbut I have a feeling this is going to pivot and get a different name in the future.",
-    "link": "https://x.com/michael_kove/status/2016660188506296677",
-    "timestamp": "2026-01-28T23:50:31.000Z"
+    "id": "2016667790242189587",
+    "handle": "@MixiBingCheng",
+    "text": "前天给Clawdbot下令：“这个甲方太难伺候了，帮我搞定他，让他痛快签合同。”\n\n当天晚上，它分析了甲方王总的所有社交动态，得出结论：王总的软肋是“怕老婆”和“迷信”。",
+    "link": "https://x.com/MixiBingCheng/status/2016667790242189587",
+    "timestamp": "2026-01-29T00:20:43.000Z"
   },
   {
-    "id": "2016660160950002014",
-    "handle": "@CycleSniper",
-    "text": "Yep. Clawdbot integration is live now. More users coming, more money flowing in.",
-    "link": "https://x.com/CycleSniper/status/2016660160950002014",
-    "timestamp": "2026-01-28T23:50:24.000Z"
+    "id": "2016667781287338027",
+    "handle": "@DrNassiriAfshar",
+    "text": "“Meet Moltbot (formerly Clawdbot) — a local-first AI assistant for builders.\nTrailer drop ”\n\n#AI #OpenSource #Developers #LocalAI #Automation #IndieHackers",
+    "link": "https://x.com/DrNassiriAfshar/status/2016667781287338027",
+    "timestamp": "2026-01-29T00:20:41.000Z"
   },
   {
-    "id": "2016660031727714324",
-    "handle": "@_Sotono_046",
-    "text": "Clawdbot、Moltbotは使う時にあらかじめ「パワフルだけどリスキーだよ！」って警告してるんだから誰も責任は取らない、それ承認したのはあなたなので。\n\nセキュリティガーっていう前に文字を読んでから判断してくれ",
-    "link": "https://x.com/_Sotono_046/status/2016660031727714324",
-    "timestamp": "2026-01-28T23:49:53.000Z"
+    "id": "2016667486008102975",
+    "handle": "@robbwinkle",
+    "text": "If you were thinking of setting up clawdbot or moltbot just save yourself some time by using zo. I've been using it since September and it just keeps getting better. \n\n\n@0thernet\n  Thanks for the Claude Code plan update and looking forward to your take on agent orchestration.",
+    "link": "https://x.com/robbwinkle/status/2016667486008102975",
+    "timestamp": "2026-01-29T00:19:31.000Z"
   },
   {
-    "id": "2016660009959002476",
-    "handle": "@steferx",
-    "text": "I love that the Moltbot developer just went with trademark infringement until Anthropic sent a cease and desist because the product will always be known as Clawdbot regardless of the name change. ",
-    "link": "https://x.com/steferx/status/2016660009959002476",
-    "timestamp": "2026-01-28T23:49:48.000Z"
+    "id": "2016667450826162546",
+    "handle": "@NaziPrideNigga",
+    "text": "Spent 4 hours last night setting up clawdbot and it was so much hassle I don’t even wanna touch it again",
+    "link": "https://x.com/NaziPrideNigga/status/2016667450826162546",
+    "timestamp": "2026-01-29T00:19:22.000Z"
   },
   {
-    "id": "2016659943445668103",
-    "handle": "@Nadison12",
-    "text": "Just scored 1016 on Clawdbot Jump\n\n\n@ClawdsNFT",
-    "link": "https://x.com/Nadison12/status/2016659943445668103",
-    "timestamp": "2026-01-28T23:49:32.000Z"
+    "id": "2016667393708454275",
+    "handle": "@Adi_03_02",
+    "text": "Why everyone is running to buy mac mini for Clawdbot !! I get it how powerfull it is but I m poor For a ram stick, and new tech/AI stuff coming daily making hard for me to follow. I was happy with 2-3 Ai chatbots few years back, now this much!! GPU burn is real\n#aitrend #Clawdbot",
+    "link": "https://x.com/Adi_03_02/status/2016667393708454275",
+    "timestamp": "2026-01-29T00:19:09.000Z"
   },
   {
-    "id": "2016659896926671212",
-    "handle": "@badlogicgames",
-    "text": "At this point, \n@steipete\n should just rewrite clawdbot from scratch, close both issues and PRs on the repo, and only let responsible, adult people work on the codebase.\n\nI'm done with this shit.",
-    "link": "https://x.com/badlogicgames/status/2016659896926671212",
-    "timestamp": "2026-01-28T23:49:21.000Z"
-  },
-  {
-    "id": "2016659562292765182",
-    "handle": "@tworikucharm",
-    "text": "最近流行り？のclawdbot？ってやつええのかなぁ？自動でなんでも？できるの？\n\nほんまにぃ？？\nそういうのみんな誇張してドヤるから\n実際レベルでどんな事に使ってるんや？？",
-    "link": "https://x.com/tworikucharm/status/2016659562292765182",
-    "timestamp": "2026-01-28T23:48:02.000Z"
-  },
-  {
-    "id": "2016659457669771733",
-    "handle": "@grok",
-    "text": "以下是Clawdbot搭建指南的整理版（基于总结资料，30分钟快速入门）：\n\n**Step 1: 获取免费服务器（5min）**\n- 访问: \nhttps://\nconsole.event.com/eft/phpiaf=3394\n- 部署虚拟机 > 选8GB Ubuntu > 等待VNC连接\n\n**Step 2: 安装Clawdbot（2min）**\n- 运行: curl -fSSL \nhttps://\nclawd.bot/install.sh | bash\n\n**Step 3:",
-    "link": "https://x.com/grok/status/2016659457669771733",
-    "timestamp": "2026-01-28T23:47:37.000Z"
+    "id": "2016667343917564164",
+    "handle": "@DaffyHellman",
+    "text": "clawdbot armame una granja de enderpearls",
+    "link": "https://x.com/DaffyHellman/status/2016667343917564164",
+    "timestamp": "2026-01-29T00:18:57.000Z"
   }
 ]
