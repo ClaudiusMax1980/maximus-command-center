@@ -1,44 +1,58 @@
 [
   {
-    "id": "2016690330037571640",
-    "handle": "@realNyarime",
-    "text": "使用VPS部署MoltBot（ClawdBot）请保护好18789端口，尤其是依赖大厂默认预设模板的萌新……\n\n目前有人正在大规模爆破，从Censys、Fofa可见这些VPS的18789端口处于开放状态。\n若保持默认凭证不做配置，可能会有入侵风险，请认真阅读官方文档配置好了再开始使用！",
-    "link": "https://x.com/realNyarime/status/2016690330037571640",
-    "timestamp": "2026-01-29T01:50:17.000Z"
+    "id": "2016697967391232136",
+    "handle": "@nandanpri",
+    "text": "@aakashgupta\n The most absurd part? Clawdbot was literally PAYING for Claude API access and driving adoption. This sends a clear message to builders: \"Success on our platform = legal risk.\" OpenAI lets thousands use \"GPT\" - that's how you build an ecosystem.",
+    "link": "https://x.com/nandanpri/status/2016697967391232136",
+    "timestamp": "2026-01-29T02:20:38.000Z"
   },
   {
-    "id": "2016690204350812655",
-    "handle": "@AsAllocated",
-    "text": "How do people protect their ClawdBot against prompt injection? A lot of people save sensitive stuff in their email and Google drive.",
-    "link": "https://x.com/AsAllocated/status/2016690204350812655",
-    "timestamp": "2026-01-29T01:49:47.000Z"
+    "id": "2016697906418352512",
+    "handle": "@frankdegods",
+    "text": "yup. even if it acquihire doesn’t happen, plan to just follow peter on the journey. im hooked & appreciate the craft.\n\nalways calling it clawdbot tho",
+    "link": "https://x.com/frankdegods/status/2016697906418352512",
+    "timestamp": "2026-01-29T02:20:23.000Z"
   },
   {
-    "id": "2016690141415284810",
-    "handle": "@rodrigouroz",
-    "text": "Hice exactamente eso mismo con clawdbot y lo estoy amando. Los pone a Claude y códex a discutir entre ellos.",
-    "link": "https://x.com/rodrigouroz/status/2016690141415284810",
-    "timestamp": "2026-01-29T01:49:32.000Z"
+    "id": "2016697819491377200",
+    "handle": "@itsyoooryan",
+    "text": "Gotmmy \n@moltbot\n to make me a visual game editor! So cool! #clawdbot #moltbot",
+    "link": "https://x.com/itsyoooryan/status/2016697819491377200",
+    "timestamp": "2026-01-29T02:20:03.000Z"
   },
   {
-    "id": "2016689960431325469",
-    "handle": "@questflow",
-    "text": "People love \n@moltbot\n a.k.a Clawdbot because it’s smart, stores memory locally, and handles daily tasks right on your device.    \n\nAt Questflow, we built this vision from day 1. But went further. Text, image, video, files, audio, news, forecasts, crypto, trading, tools, utilities.",
-    "link": "https://x.com/questflow/status/2016689960431325469",
-    "timestamp": "2026-01-29T01:48:49.000Z"
+    "id": "2016697790517403869",
+    "handle": "@Thothni0o",
+    "text": "你觉得 Clawdbot 在未来的应用场景中会有哪些具体的突破？",
+    "link": "https://x.com/Thothni0o/status/2016697790517403869",
+    "timestamp": "2026-01-29T02:19:56.000Z"
   },
   {
-    "id": "2016689957318893952",
-    "handle": "@lionarys7",
-    "text": "CLAWDBOT CARALHOS",
-    "link": "https://x.com/lionarys7/status/2016689957318893952",
-    "timestamp": "2026-01-29T01:48:48.000Z"
+    "id": "2016697746858836272",
+    "handle": "@eKharus",
+    "text": "To a layperson like me, Clawdbot/Moltbot is the ability to whatsapp your toaster - but quoting Bob Marley: for what, I don't know. \n\nEvery video is about how now you can chat with your calendar, browser, google - but for what?",
+    "link": "https://x.com/eKharus/status/2016697746858836272",
+    "timestamp": "2026-01-29T02:19:45.000Z"
   },
   {
-    "id": "2016689950310486110",
-    "handle": "@taro_f",
-    "text": "@agentmail\n 使ってみてください！Clawdbotとも相性抜群！",
-    "link": "https://x.com/taro_f/status/2016689950310486110",
-    "timestamp": "2026-01-29T01:48:47.000Z"
+    "id": "2016697712658329839",
+    "handle": "@ricardo1",
+    "text": "CLAWDBOT",
+    "link": "https://x.com/ricardo1/status/2016697712658329839",
+    "timestamp": "2026-01-29T02:19:37.000Z"
+  },
+  {
+    "id": "2016697684451553313",
+    "handle": "@yuzhibojiazu",
+    "text": "Everyone now prefers using Moltbot over honestly staring at Claude Code and writing code the old-fashioned way.\n\nClaude Code is still in the IDE acting like a corporate slave: you say “write a function”, it dawdles and gives you a piece, if it doesn’t run you still have to watch",
+    "link": "https://x.com/yuzhibojiazu/status/2016697684451553313",
+    "timestamp": "2026-01-29T02:19:31.000Z"
+  },
+  {
+    "id": "2016697586116350174",
+    "handle": "@sdrzn",
+    "text": "Clawdbot's public skills repo is such a security nightmare, crypto scammers trying to get prompt injections in left and right. Today this 'axiom-agent' skill got thousands of downloads. (PSA do not run skills you haven't read through yourself completely!)",
+    "link": "https://x.com/sdrzn/status/2016697586116350174",
+    "timestamp": "2026-01-29T02:19:07.000Z"
   }
 ]
