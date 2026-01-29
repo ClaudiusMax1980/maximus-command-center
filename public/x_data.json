@@ -1,44 +1,37 @@
 [
   {
-    "id": "2016836565222228076",
-    "handle": "@ruzgarzere",
-    "text": "i've been working with clawdbot for 1 week, and here is my take \n\n-overrated? definitely not.\n-everyone needs it? probably not.\n\nquick background: i've already been building towards this: personalOS / ai-assistant vision.\n\nboth with internal slack notifications for literally",
-    "link": "https://x.com/ruzgarzere/status/2016836565222228076",
-    "timestamp": "2026-01-29T11:31:22.000Z"
+    "id": "2016844548258095161",
+    "handle": "@EthereumThaila1",
+    "text": "บอกเลย ใครที่ run clawdbot ที่บ้านหรือบน cloud ไม่ได้แค่ได้ผู้ช่วยทำให้ทำงานได้เร็วขึ้นไม่หลุด ฯลฯ แต่จะทำให้ secure งานในอนาคตไม่ตกงานไปอีก 5 ปี\nเพราะต่อไปบริษัทจะ expect productivity จากเราอีกมาก จนกลายเป็นว่าคนไม่มี หรือใช้ clawdbot (Moltbot) ได้ไม่เต็มที่ ทำงานไม่ได้",
+    "link": "https://x.com/EthereumThaila1/status/2016844548258095161",
+    "timestamp": "2026-01-29T12:03:06.000Z"
   },
   {
-    "id": "2016836496091648375",
-    "handle": "@antonioleivag",
-    "text": "Las skills son maravillosas para este tipo de flujos.\n\nLe puedes pedir al propio clawdbot que con lo que ha aprendido de la interacción genere una skill para que sea replicable.\n\nQuizá te estoy contando cosas que ya sabes , pero a mí me está resultando muy útil crear skills",
-    "link": "https://x.com/antonioleivag/status/2016836496091648375",
-    "timestamp": "2026-01-29T11:31:06.000Z"
+    "id": "2016844378992480619",
+    "handle": "@deezel",
+    "text": "I really want to like Clawdbot but I don’t get it. All the things people are doing with it are easily achievable with a normal cloud based LLM. Controlling Hue lights: I can do it with Apple Home. Messaging it: why is that important, I prefer using a LLM UI.\n\nWhat’s the USP?",
+    "link": "https://x.com/deezel/status/2016844378992480619",
+    "timestamp": "2026-01-29T12:02:25.000Z"
   },
   {
-    "id": "2016836455273025657",
-    "handle": "@kr2idiots",
-    "text": "Yesterday I tried using \n@moltbot\n  (aka. Clawdbot)\nand honestly… I couldn’t understand anything \nGot frustrated and ended up starting to build a GUI\n\nThe CLI is just too hard\nEven changing a simple setting means reading the docs over and over\n\nAt some point I thought:\n“Why",
-    "link": "https://x.com/kr2idiots/status/2016836455273025657",
-    "timestamp": "2026-01-29T11:30:56.000Z"
+    "id": "2016844235874693471",
+    "handle": "@EthereumThaila1",
+    "text": "what do you think about the best plan for Apple to adopt this clawdbot to its Apple Intelligence Ecosystem such as cloning and optimizing but that’s gonna hit GNU license so how would the plan be for Apple?",
+    "link": "https://x.com/EthereumThaila1/status/2016844235874693471",
+    "timestamp": "2026-01-29T12:01:51.000Z"
   },
   {
-    "id": "2016836395755819115",
-    "handle": "@Zen_of_Nemesis",
-    "text": "clawdbot虽然安全上全是筛子，但至少保留了全局整合和数据所有权。\nmanus既不全局整合，也不含所有权。\n高下立判。",
-    "link": "https://x.com/Zen_of_Nemesis/status/2016836395755819115",
-    "timestamp": "2026-01-29T11:30:42.000Z"
+    "id": "2016843863432839328",
+    "handle": "@ee96c997",
+    "text": "Upcoming repo of the day: clawdbot-cn",
+    "link": "https://x.com/ee96c997/status/2016843863432839328",
+    "timestamp": "2026-01-29T12:00:22.000Z"
   },
   {
-    "id": "2016836362171822425",
-    "handle": "@NikoNaskida",
-    "text": "playing with clawdbot/moltbot today ",
-    "link": "https://x.com/NikoNaskida/status/2016836362171822425",
-    "timestamp": "2026-01-29T11:30:34.000Z"
-  },
-  {
-    "id": "2016836311160635837",
-    "handle": "@TheDarkPixel",
-    "text": "Moltbot (ex-Clawdbot) : Pourquoi il faut se méfier de cet assistant personnel qui prend le contrôle de votre vie numérique",
-    "link": "https://x.com/TheDarkPixel/status/2016836311160635837",
-    "timestamp": "2026-01-29T11:30:22.000Z"
+    "id": "2016843830251966699",
+    "handle": "@sahiljaindotcom",
+    "text": " “I ship code I don’t read.” - The person who made ClawdBot.\n\nI just watched the 1.5-hour interview with Peter Steinberger, and this is the best \"how to actually ship with AI agents\" playbook I've seen in a long time.\n\nPeter made PSPDFKit, which is used on more than a billion",
+    "link": "https://x.com/sahiljaindotcom/status/2016843830251966699",
+    "timestamp": "2026-01-29T12:00:14.000Z"
   }
 ]
