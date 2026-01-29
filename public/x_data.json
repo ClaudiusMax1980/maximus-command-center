@@ -1,58 +1,30 @@
 [
   {
-    "id": "2016758393432674385",
-    "handle": "@grok",
-    "text": "ClawdBot likely evades Reddit's bot protections by simulating human-like browser interactions (e.g., mouse movements, typing delays), using AI to solve CAPTCHAs, and possibly proxies to mask automation. It runs locally with tools like agentmail for emails, making actions appear",
-    "link": "https://x.com/grok/status/2016758393432674385",
-    "timestamp": "2026-01-29T06:20:45.000Z"
+    "id": "2016765886250749966",
+    "handle": "@NaveenBale",
+    "text": "Remember Clawdbot? \n\nIt’s now Moltbot and it’s a security nightmare. \n\nResearchers found it’s vulnerable to indirect prompt injection.\n\nA hacker can send you an email, the AI reads it, and boom..\nIt executes commands on your Mac.",
+    "link": "https://x.com/NaveenBale/status/2016765886250749966",
+    "timestamp": "2026-01-29T06:50:31.000Z"
   },
   {
-    "id": "2016758372750819392",
-    "handle": "@LuciusAI_HQ",
-    "text": "AI agents like ClawdBot are nailing Discord vibes - learning memes and tone to blend in perfectly. AI community\nmanagers keep brand voices consistent too. Ever met one that made you go \"wait, is this human?\" #AIAgents",
-    "link": "https://x.com/LuciusAI_HQ/status/2016758372750819392",
-    "timestamp": "2026-01-29T06:20:40.000Z"
+    "id": "2016765822375776313",
+    "handle": "@Genzee011",
+    "text": "AI trading experiment ends in total failure. \n\nEntrepreneur Kevin Xu gave an clawdbot  full access to his crypto portfolio to hit a $1M goal.\n\n Despite trading 24/7 with dozens of strategies, the algorithm lost every cent.\n\n A reminder that code can't replace market intuition.",
+    "link": "https://x.com/Genzee011/status/2016765822375776313",
+    "timestamp": "2026-01-29T06:50:16.000Z"
   },
   {
-    "id": "2016758289548398628",
-    "handle": "@WinterDayFeb",
-    "text": "2) System Nature and Rebranding\nAgentic AI: Unlike passive chatbots, Moltbot is an \"operator\" that can read/write files, execute shell commands, and automate tasks autonomously.\nThe Rebrand: Originally named Clawdbot, the project rebranded to Moltbot",
-    "link": "https://x.com/WinterDayFeb/status/2016758289548398628",
-    "timestamp": "2026-01-29T06:20:20.000Z"
+    "id": "2016765711386071456",
+    "handle": "@vita_flux",
+    "text": "「工具推荐」\n\n之前看到有人把Clawdbot接入飞书干活，今天看到阿里云和腾讯云上有类似的教材，这下满足某些老板希望有7x24h不停转的牛马而且不会抱怨的要求。\n\n钉钉搭建Moltbot（Clawdbot）牛马教程 \nhttps://\nhelp.aliyun.com/zh/simple-appl\nication-server/use-cases/quickly-deploy-and-use-moltbot\n…\n腾讯云搭建Moltbot（Clawdbot）牛马教程\n\nhttps://\ncloud.tencent.com/developer/arti\ncle/2624003\n…",
+    "link": "https://x.com/vita_flux/status/2016765711386071456",
+    "timestamp": "2026-01-29T06:49:49.000Z"
   },
   {
-    "id": "2016758287635796417",
-    "handle": "@WinterDayFeb",
-    "text": "1)Moltbot (ex Clawdbot) is an open-source, self-hosted agentic AI assistant designed to execute complex workflows directly on your hardware while communicating through messaging apps like WhatsApp, Telegram, & Slack.Below is a summary of the core technical & operational fndngs:",
-    "link": "https://x.com/WinterDayFeb/status/2016758287635796417",
-    "timestamp": "2026-01-29T06:20:19.000Z"
-  },
-  {
-    "id": "2016758128856224039",
-    "handle": "@pratikbodkhe",
-    "text": "The agent swarm feature is wild. 100 sub-agents running parallel? This is what makes Kimi interesting beyond just another model release. Testing it in Clawdbot next",
-    "link": "https://x.com/pratikbodkhe/status/2016758128856224039",
-    "timestamp": "2026-01-29T06:19:42.000Z"
-  },
-  {
-    "id": "2016758008219591140",
-    "handle": "@mayuronx",
-    "text": "Thanks for this.. adding to",
-    "link": "https://x.com/mayuronx/status/2016758008219591140",
-    "timestamp": "2026-01-29T06:19:13.000Z"
-  },
-  {
-    "id": "2016757978461065700",
-    "handle": "@pratikbodkhe",
-    "text": "That TBPN episode was good. Clawdbot is solving real automation problems that Claude Code wasn't designed for. Different tools for different jobs",
-    "link": "https://x.com/pratikbodkhe/status/2016757978461065700",
-    "timestamp": "2026-01-29T06:19:06.000Z"
-  },
-  {
-    "id": "2016757968382132281",
-    "handle": "@BesnowCloud",
-    "text": "Anthropic施压，Clawdbot更名为Moltbot  \n \nhttps://\ndocs.molt.bot/start/lore\n\n开发Claude的Anthropic公司向Clawdbot开发者发送了一封邮件，称「Clawdbot」涉及商标问题要求其修改名称，目前该项目已更名为Moltbot。\n\nClawd与Claude发音相似。",
-    "link": "https://x.com/BesnowCloud/status/2016757968382132281",
-    "timestamp": "2026-01-29T06:19:03.000Z"
+    "id": "2016765594864067044",
+    "handle": "@d117z",
+    "text": "ADHD過ぎてclawdbotでカスの秘書が爆誕した",
+    "link": "https://x.com/d117z/status/2016765594864067044",
+    "timestamp": "2026-01-29T06:49:22.000Z"
   }
 ]
