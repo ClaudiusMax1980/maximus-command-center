@@ -1,30 +1,44 @@
 [
   {
-    "id": "2016720650975793390",
-    "handle": "@gefei55",
-    "text": "这几天，要是哪个大模型公司没有去搭车MoltBot （aka ClawdBot）做营销，要么是人的能力不行，要么是模型能力不行，要么是公司太牛逼，不屑于搭车。",
-    "link": "https://x.com/gefei55/status/2016720650975793390",
-    "timestamp": "2026-01-29T03:50:46.000Z"
+    "id": "2016728179327770996",
+    "handle": "@uofuless",
+    "text": "论 2026 年最强 AI 员工：Clawdbot (现更名 Moltbot) 究竟多离谱？ \n\n家人们谁懂啊！最近硅谷那只“大龙虾” Clawdbot 真的让我笑死又吓死：\n\n 改名梗：\nAnthropic：你这名字太像我了，律师函警告！\n创始人：行，我改。既然龙虾要长大就得脱壳，那我就叫 Moltbot 吧。\n（冷知识：Molt",
+    "link": "https://x.com/uofuless/status/2016728179327770996",
+    "timestamp": "2026-01-29T04:20:41.000Z"
   },
   {
-    "id": "2016720443869450348",
-    "handle": "@hov8a",
-    "text": "Moltbot seems such a difficult name to remember now... Damn Claude, now everyone is looking for the Clawdbot\n\nDo you know that the market also generated a memecoin named... $Clawdbot\n\nDamn money \n\nWell, if that's the new standard, what next?\n\na hologram in front of me? \n@_vgnsh",
-    "link": "https://x.com/hov8a/status/2016720443869450348",
-    "timestamp": "2026-01-29T03:49:57.000Z"
+    "id": "2016728153331323355",
+    "handle": "@EdisonGPT",
+    "text": "Clawdbot is a cool idea but is basically useless as it hits rate limits on shit that should not be using so many tokens.\n\nSeems extremely inefficient out of the box. And it’s a total pain in the ass to add OpenRouter… it blows up just trying to add back up models. ",
+    "link": "https://x.com/EdisonGPT/status/2016728153331323355",
+    "timestamp": "2026-01-29T04:20:35.000Z"
   },
   {
-    "id": "2016720391641977202",
-    "handle": "@__Crazy_Kid__",
-    "text": "clawdbot没有网上传的这么玄乎\n至少目前没有适合我的使用场景",
-    "link": "https://x.com/__Crazy_Kid__/status/2016720391641977202",
-    "timestamp": "2026-01-29T03:49:44.000Z"
+    "id": "2016728145286898082",
+    "handle": "@sharaff",
+    "text": "Thread 10/12\nKey files to know:\n- Config: ~/.clawdbot/moltbot.json\n- Credentials: ~/.clawdbot/credentials/whatsapp\n- Environment: /volume2/docker/moltbot/.env\n- Auth override: ~/.clawdbot/agents/main/agent/auth-profiles.json",
+    "link": "https://x.com/sharaff/status/2016728145286898082",
+    "timestamp": "2026-01-29T04:20:33.000Z"
   },
   {
-    "id": "2016720011235414383",
-    "handle": "@R0setiger",
-    "text": "他亏完了全部的本金，但这看起来真的很专业！\n\n#clawdbot",
-    "link": "https://x.com/R0setiger/status/2016720011235414383",
-    "timestamp": "2026-01-29T03:48:14.000Z"
+    "id": "2016728141176459360",
+    "handle": "@sharaff",
+    "text": "Thread 9/12\nFix for auth errors:\n\nFind and edit:\n```\n/home/[user]/.clawdbot/agents/main/agent/auth-profiles.json\n```\n\nMake sure the API key there matches your .env file, then:\n```\ndocker compose restart moltbot-gateway\n```",
+    "link": "https://x.com/sharaff/status/2016728141176459360",
+    "timestamp": "2026-01-29T04:20:32.000Z"
+  },
+  {
+    "id": "2016728140882825498",
+    "handle": "@i_matsui",
+    "text": "Moltbot(Clawdbot)をインストールする為、gitbubのREADMEに従ってインストールコマンドを実行するとhello, moltbotと出力するダミーパッケージがインストールされるのでご注意を。moltbotコマンドは入りません。\n\n名称変更の際に第三者にパッケージ名を取得したようですが現在は取り返したようです。",
+    "link": "https://x.com/i_matsui/status/2016728140882825498",
+    "timestamp": "2026-01-29T04:20:32.000Z"
+  },
+  {
+    "id": "2016728046250971295",
+    "handle": "@IamAdiG",
+    "text": "Zo looks really cool and I would love to use it but a lot of pain points mentioned in this post are quite trivial \n\nIt takes less than a few minutes to setup clawdbot (Claude does it anyway) \n\nthe maintenance is minimal. Community is shipping like crazy\n\nand I can self host it on",
+    "link": "https://x.com/IamAdiG/status/2016728046250971295",
+    "timestamp": "2026-01-29T04:20:09.000Z"
   }
 ]
