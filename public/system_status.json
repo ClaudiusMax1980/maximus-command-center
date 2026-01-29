@@ -1,11 +1,11 @@
 {
-  "lastCheck": "2026-01-29T09:21:47.565Z",
+  "lastCheck": "2026-01-29T09:57:01.129Z",
   "status": "ONLINE",
   "system": "clawd",
   "load": [
-    0.12,
-    0.06,
+    0.15,
+    0.05,
     0.01
   ],
-  "uptime": 80301
+  "uptime": 82414.57
 }
