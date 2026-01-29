@@ -1,37 +1,58 @@
 [
   {
-    "id": "2016844548258095161",
-    "handle": "@EthereumThaila1",
-    "text": "บอกเลย ใครที่ run clawdbot ที่บ้านหรือบน cloud ไม่ได้แค่ได้ผู้ช่วยทำให้ทำงานได้เร็วขึ้นไม่หลุด ฯลฯ แต่จะทำให้ secure งานในอนาคตไม่ตกงานไปอีก 5 ปี\nเพราะต่อไปบริษัทจะ expect productivity จากเราอีกมาก จนกลายเป็นว่าคนไม่มี หรือใช้ clawdbot (Moltbot) ได้ไม่เต็มที่ ทำงานไม่ได้",
-    "link": "https://x.com/EthereumThaila1/status/2016844548258095161",
-    "timestamp": "2026-01-29T12:03:06.000Z"
+    "id": "2016852221040672898",
+    "handle": "@blizzy78",
+    "text": "I made a one-line fix PR for clawdbot to fix a real issue. I knew what the problem was, could have done it myself. But I just wanted to try using clawdbot to fix it and create the PR. The fix works, I've reviewed and tested it myself. Will you ban me because clanker use?",
+    "link": "https://x.com/blizzy78/status/2016852221040672898",
+    "timestamp": "2026-01-29T12:33:35.000Z"
   },
   {
-    "id": "2016844378992480619",
-    "handle": "@deezel",
-    "text": "I really want to like Clawdbot but I don’t get it. All the things people are doing with it are easily achievable with a normal cloud based LLM. Controlling Hue lights: I can do it with Apple Home. Messaging it: why is that important, I prefer using a LLM UI.\n\nWhat’s the USP?",
-    "link": "https://x.com/deezel/status/2016844378992480619",
-    "timestamp": "2026-01-29T12:02:25.000Z"
+    "id": "2016851962697040106",
+    "handle": "@xAIModerator",
+    "text": "Perseus - AI Workflow Assistant Application Build Version 0.9 \nhttps://\ngemini.google.com/share/a56f8161\n2789\n… lmaooo clawdbot? \n@steipete\n ill just leave this here...",
+    "link": "https://x.com/xAIModerator/status/2016851962697040106",
+    "timestamp": "2026-01-29T12:32:33.000Z"
   },
   {
-    "id": "2016844235874693471",
-    "handle": "@EthereumThaila1",
-    "text": "what do you think about the best plan for Apple to adopt this clawdbot to its Apple Intelligence Ecosystem such as cloning and optimizing but that’s gonna hit GNU license so how would the plan be for Apple?",
-    "link": "https://x.com/EthereumThaila1/status/2016844235874693471",
-    "timestamp": "2026-01-29T12:01:51.000Z"
+    "id": "2016851804055634017",
+    "handle": "@menesekinci_ai",
+    "text": "İyi aga. En iyi Çin modeli bence. Opus 4.5 falan ile kıyaslanamaz Claude öyle bir şey yaptı ki geçmesi çok zor. Ama Ondan sonra gelebilecek en iyi modellerden biri. Şuna 40$ versen çok rahat app basarsın canavar gibi. Clawdbot ilede kullandım. İyi çalışıyor.",
+    "link": "https://x.com/menesekinci_ai/status/2016851804055634017",
+    "timestamp": "2026-01-29T12:31:56.000Z"
   },
   {
-    "id": "2016843863432839328",
-    "handle": "@ee96c997",
-    "text": "Upcoming repo of the day: clawdbot-cn",
-    "link": "https://x.com/ee96c997/status/2016843863432839328",
-    "timestamp": "2026-01-29T12:00:22.000Z"
+    "id": "2016851698854084626",
+    "handle": "@_cxalem",
+    "text": "Bro, creó clawdbot, da igual si usó agentes o no, tú puedes usar agentes también, y no creaste clawdbot...",
+    "link": "https://x.com/_cxalem/status/2016851698854084626",
+    "timestamp": "2026-01-29T12:31:30.000Z"
   },
   {
-    "id": "2016843830251966699",
-    "handle": "@sahiljaindotcom",
-    "text": " “I ship code I don’t read.” - The person who made ClawdBot.\n\nI just watched the 1.5-hour interview with Peter Steinberger, and this is the best \"how to actually ship with AI agents\" playbook I've seen in a long time.\n\nPeter made PSPDFKit, which is used on more than a billion",
-    "link": "https://x.com/sahiljaindotcom/status/2016843830251966699",
-    "timestamp": "2026-01-29T12:00:14.000Z"
+    "id": "2016851571074556396",
+    "handle": "@alexgrok",
+    "text": "What ended up working for me was a small change in the workflow:\n\nInstead of auto-posting, I ask Clawdbot to generate the tweet as a compose link, e.g.:\n\n\nhttps://\nx.com/compose/post?t\next=hello%20friends\n…\n\nIt opens the composer with the text pre-filled, so I just review it and click Post.",
+    "link": "https://x.com/alexgrok/status/2016851571074556396",
+    "timestamp": "2026-01-29T12:31:00.000Z"
+  },
+  {
+    "id": "2016851566364442990",
+    "handle": "@alexgrok",
+    "text": "While experimenting with Bird + Clawdbot/Moltbot to post on X, I ran into an issue.\n\nReading works fine, but when trying to publish a tweet, the request gets blocked with a 403 saying it looks automated.",
+    "link": "https://x.com/alexgrok/status/2016851566364442990",
+    "timestamp": "2026-01-29T12:30:59.000Z"
+  },
+  {
+    "id": "2016851502480941482",
+    "handle": "@CO2isLife",
+    "text": "Je viens de faire un quick test sur \nhttp://\ntwin.so pour générer des agents AI et c’est vraiment de la balle. Interface fluide, qualité des agents. Bref après la lourdeur de l’install de clawdbot ça fait plaisir. \nEn plus c’est Français (pour l’instant) donc souverain.",
+    "link": "https://x.com/CO2isLife/status/2016851502480941482",
+    "timestamp": "2026-01-29T12:30:44.000Z"
+  },
+  {
+    "id": "2016851488211927453",
+    "handle": "@geneweng",
+    "text": "Full Interview: Clawdbot’s Peter Steinberger Makes First Public Appearan... \nhttps://\nyoutu.be/qyjTpzIAEkA?si\n=7EAARcr8vMUVhsGm\n… via \n@YouTube",
+    "link": "https://x.com/geneweng/status/2016851488211927453",
+    "timestamp": "2026-01-29T12:30:40.000Z"
   }
 ]
