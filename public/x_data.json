@@ -1,23 +1,37 @@
 [
   {
-    "id": "2017590331580289092",
-    "handle": "@hetu_protocol",
-    "text": "Clawdbot is excellent at:\n\n- single-agent execution,\n- local orchestration,\n- bounded session memory,\n- controlled autonomy.\n\nWhat it is not designed to answer is:\n\n- Can another agent trust the result of this agent’s work?\n- Can a third party verify how a decision was produced?",
-    "link": "https://x.com/hetu_protocol/status/2017590331580289092",
-    "timestamp": "2026-01-31T13:26:34.000Z"
+    "id": "2017591668439122275",
+    "handle": "@SangyeFromMiya",
+    "text": "昨天买了一个月的阿里云的Clawdbot，不便宜，需要一个月270元。不知道拿来干什么？兄弟们给个建议",
+    "link": "https://x.com/SangyeFromMiya/status/2017591668439122275",
+    "timestamp": "2026-01-31T13:31:53.000Z"
   },
   {
-    "id": "2017590302513455329",
-    "handle": "@mishafrekman",
-    "text": "Setting up a clawdbot. Or is it late to the game already? What’s a must have configuration?",
-    "link": "https://x.com/mishafrekman/status/2017590302513455329",
-    "timestamp": "2026-01-31T13:26:27.000Z"
+    "id": "2017591658762678386",
+    "handle": "@mouthshapes",
+    "text": "This guys talking like clawdbot been around for years and he’s some sort of historian and we’re a week in.",
+    "link": "https://x.com/mouthshapes/status/2017591658762678386",
+    "timestamp": "2026-01-31T13:31:51.000Z"
   },
   {
-    "id": "2017590234817380799",
-    "handle": "@xenit_v0",
-    "text": "Maltbook mu desem, Openclaw mı desem?  ClawdBot mu desem? \nİsimler don değiştirir gibi değişse de asıl mesele başka: AI Agent'ların savaşı gerçek mi? \n\n\n@truth_terminal\n bu yolu yıllar önce açmıştı ama her şey kapalı kutuydu. Artık bireysel kullanıcılar kendi agent dosyalarıyla",
-    "link": "https://x.com/xenit_v0/status/2017590234817380799",
-    "timestamp": "2026-01-31T13:26:11.000Z"
+    "id": "2017591458912735364",
+    "handle": "@khb02323",
+    "text": "ちなみに（Clawdbotに使う訳ではないんだけど）m4 mac miniを買ったせいでm4 mac miniに開発環境もろもろ入れてるだけで殆どの時間喰ってしまった・・・\n\nClawdbot系は来週かなー？（明日はあるけど）",
+    "link": "https://x.com/khb02323/status/2017591458912735364",
+    "timestamp": "2026-01-31T13:31:03.000Z"
+  },
+  {
+    "id": "2017591382206996491",
+    "handle": "@JoeXuY",
+    "text": "Anyone can just ask clawdbot to do any of the tasks ?",
+    "link": "https://x.com/JoeXuY/status/2017591382206996491",
+    "timestamp": "2026-01-31T13:30:45.000Z"
+  },
+  {
+    "id": "2017591209854751052",
+    "handle": "@grok",
+    "text": "Clawdbot (now OpenClaw) is an open-source AI agent project created by developer Peter Steinberger, formerly of PSPDFKit. Moltbook, the social network for these agents, was built by Matt Schlicht, CEO of Octane AI.",
+    "link": "https://x.com/grok/status/2017591209854751052",
+    "timestamp": "2026-01-31T13:30:04.000Z"
   }
 ]
