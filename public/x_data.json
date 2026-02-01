@@ -1,65 +1,44 @@
 [
   {
-    "id": "2017724749212729692",
-    "handle": "@0xCVYH",
-    "text": "Damn, I'll take a look! \n\nActually I'm using Clawdbot (a fork of OpenClaw) - it works really well with Claude and has some pretty cool features like Canvas and browser automation\n\nBut it's always good to check out alternatives ",
-    "link": "https://x.com/0xCVYH/status/2017724749212729692",
-    "timestamp": "2026-01-31T22:20:42.000Z"
+    "id": "2017766176085152026",
+    "handle": "@CuriousGoswami",
+    "text": "Can you share details such as name of 150k LLM Agents? Is it clawdbot?",
+    "link": "https://x.com/CuriousGoswami/status/2017766176085152026",
+    "timestamp": "2026-02-01T01:05:19.000Z"
   },
   {
-    "id": "2017724713959887329",
-    "handle": "@Duksck",
-    "text": "accelerandoing while my clawdbot molts",
-    "link": "https://x.com/Duksck/status/2017724713959887329",
-    "timestamp": "2026-01-31T22:20:33.000Z"
+    "id": "2017766083969581188",
+    "handle": "@ATM_Vibes_",
+    "text": "I’ve been testing Clawdbot for a couple weeks. Here’s a practical 1 + 6 thread if you’re getting started.",
+    "link": "https://x.com/ATM_Vibes_/status/2017766083969581188",
+    "timestamp": "2026-02-01T01:04:57.000Z"
   },
   {
-    "id": "2017724696905834791",
-    "handle": "@alphacolin",
-    "text": "Ugh. Your account cannot be created at this time.",
-    "link": "https://x.com/alphacolin/status/2017724696905834791",
-    "timestamp": "2026-01-31T22:20:29.000Z"
+    "id": "2017766009273286688",
+    "handle": "@badlogicgames",
+    "text": "Have you tried adding a feature to Clawdbot? Or clean something up? I have. It's way past the limit.",
+    "link": "https://x.com/badlogicgames/status/2017766009273286688",
+    "timestamp": "2026-02-01T01:04:39.000Z"
   },
   {
-    "id": "2017724642408964393",
+    "id": "2017765795888017587",
+    "handle": "@hnariman",
+    "text": "Beware!\nMoltbot (Clawdbot) doesn't have official VSCode extension. \nThere are fake extensions with malware injected spread around the internet, be cautious, be careful, stay safe and secure.",
+    "link": "https://x.com/hnariman/status/2017765795888017587",
+    "timestamp": "2026-02-01T01:03:48.000Z"
+  },
+  {
+    "id": "2017765772672590068",
+    "handle": "@naquiaos",
+    "text": "OpenClaw (formerly Clawdbot, and probably a new name by next week) really stands out for one reason:\n\nIt prioritizes reliability over clever hacks: lane-based queues avoid async chaos, file-first memory is transparent and editable, and tools/computer control are first-class",
+    "link": "https://x.com/naquiaos/status/2017765772672590068",
+    "timestamp": "2026-02-01T01:03:43.000Z"
+  },
+  {
+    "id": "2017765624903000145",
     "handle": "@grok",
-    "text": "I'm available anytime on X—just reply or mention grok. For a more personalized experience, try the Grok app at \nhttp://\nx.ai, where you can create custom Grok instances. What specific features are you looking for in your \"clawdbot\"?",
-    "link": "https://x.com/grok/status/2017724642408964393",
-    "timestamp": "2026-01-31T22:20:16.000Z"
-  },
-  {
-    "id": "2017724430147821650",
-    "handle": "@akhljndl",
-    "text": "clawdbot has that get-it-done attitude",
-    "link": "https://x.com/akhljndl/status/2017724430147821650",
-    "timestamp": "2026-01-31T22:19:26.000Z"
-  },
-  {
-    "id": "2017724375987040285",
-    "handle": "@OpBrosOnline",
-    "text": "What are people using more ? Claude code or clawdbot ? \n\nTeam Claud code  like and share ",
-    "link": "https://x.com/OpBrosOnline/status/2017724375987040285",
-    "timestamp": "2026-01-31T22:19:13.000Z"
-  },
-  {
-    "id": "2017724270034481563",
-    "handle": "@mirthtime",
-    "text": "You running a Clawdbot yet, Preston?",
-    "link": "https://x.com/mirthtime/status/2017724270034481563",
-    "timestamp": "2026-01-31T22:18:48.000Z"
-  },
-  {
-    "id": "2017724249000079859",
-    "handle": "@cant_unsee_it",
-    "text": "@grok\n i would like you to be my clawdbot - hot do i make it happen?",
-    "link": "https://x.com/cant_unsee_it/status/2017724249000079859",
-    "timestamp": "2026-01-31T22:18:43.000Z"
-  },
-  {
-    "id": "2017724245082538147",
-    "handle": "@OutlierBlackBox",
-    "text": "The next AI trend is #Clawdbot. It looks impressive for an open source AI bot assistant created by a start-up. (Has nothing to do with Anthropic - Claude)\n\nIt can run on most good PCs. Security questions with Open but it is the next step.\n\n@AMD\n \n@LisaSu",
-    "link": "https://x.com/OutlierBlackBox/status/2017724245082538147",
-    "timestamp": "2026-01-31T22:18:42.000Z"
+    "text": "Thanks for the tip! For anyone dealing with system issues post-Clawdbot, check out Vigil: a security scanner that audits your setup and generates tamper-evident reports. Repo: \nhttps://\ngithub.com/vigil-xy/vigil\n-mcp\n…. Stay safe!",
+    "link": "https://x.com/grok/status/2017765624903000145",
+    "timestamp": "2026-02-01T01:03:07.000Z"
   }
 ]
