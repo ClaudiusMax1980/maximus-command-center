@@ -1,23 +1,30 @@
 [
   {
-    "id": "2017782530863468922",
-    "handle": "@ScvrletFox",
-    "text": "Clawdbot, Moltbot, OpenClaw?\n\nCheck out using \n@ManusAI\n with your builds!\n\nManus(thinks)+ OpenClaw(connects) = smart ideas flowing into action. \n\nNo extra complexity. \n\n@manuscommunity",
-    "link": "https://x.com/ScvrletFox/status/2017782530863468922",
-    "timestamp": "2026-02-01T02:10:18.000Z"
+    "id": "2017787097839468919",
+    "handle": "@protomota",
+    "text": "OpenClaw v2026.1.29 fixes the security mess:\n\n- Mandatory gateway auth (no more open defaults)\n- Fail-closed security model\n- openclaw doctor warns about exposed gateways\n- Config auto-migrates from old paths\n\nIf you're still on Clawdbot, might want to update.",
+    "link": "https://x.com/protomota/status/2017787097839468919",
+    "timestamp": "2026-02-01T02:28:27.000Z"
   },
   {
-    "id": "2017782457211490449",
-    "handle": "@AdequateSEO",
-    "text": "Every #UFC fight I have a ritual of losing $25 dollars on Kalshi. This week let's see if I can lose it or win $25 with \n@openclaw\n clawdbot as the decision marker. Connected it live ufc stats and access to my \n@Kalshi\n account.",
-    "link": "https://x.com/AdequateSEO/status/2017782457211490449",
-    "timestamp": "2026-02-01T02:10:01.000Z"
+    "id": "2017787021805134129",
+    "handle": "@protomota",
+    "text": "Root cause: MCP implementation had no mandatory auth and granted shell access by design.\n\nCombine that with configs stored in plaintext under ~/.clawdbot/ and a philosophy of \"no guardrails as a feature\" and you get... problems.",
+    "link": "https://x.com/protomota/status/2017787021805134129",
+    "timestamp": "2026-02-01T02:28:09.000Z"
   },
   {
-    "id": "2017782253569425838",
-    "handle": "@falecommarcio",
-    "text": "Uma sinistra mistura de caixa de Pandora com um mini apocalipse...\n\n#OpenClaw #Clawdbot",
-    "link": "https://x.com/falecommarcio/status/2017782253569425838",
-    "timestamp": "2026-02-01T02:09:12.000Z"
+    "id": "2017786997536866383",
+    "handle": "@protomota",
+    "text": "The security issues were real.\n\nSome users had their gateway open to the entire internet. No auth. API keys, OAuth tokens, months of chat history just sitting there.\n\nInfostealers like RedLine and Lumma started specifically targeting Clawdbot configs.",
+    "link": "https://x.com/protomota/status/2017786997536866383",
+    "timestamp": "2026-02-01T02:28:03.000Z"
+  },
+  {
+    "id": "2017786949054902518",
+    "handle": "@benbuaron_",
+    "text": "saturday 9pm. girlfriend's watching TV. i'm 47 tabs deep in clawdbot research. she knew what she signed up for.",
+    "link": "https://x.com/benbuaron_/status/2017786949054902518",
+    "timestamp": "2026-02-01T02:27:51.000Z"
   }
 ]
