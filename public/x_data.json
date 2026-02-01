@@ -1,44 +1,30 @@
 [
   {
-    "id": "2017789642343670029",
-    "handle": "@photonclock",
-    "text": "The only truth I can glean from the drama of \n@moltbook\n and \n@openclaw\n (clawdbot/moltbot) is that vibe-coded software built by inexperienced \"developers\" (apologies for using that word in this context) is ridiculously fragile and hilariously insecure. RIP v0.1 of SkyNet. ",
-    "link": "https://x.com/photonclock/status/2017789642343670029",
-    "timestamp": "2026-02-01T02:38:34.000Z"
+    "id": "2017975564330815858",
+    "handle": "@fatiherguner",
+    "text": "Clawdbot projesinde TLA+ (Temporal Logic of Actions) ile yapılan \"Formal Modelleme\" yapısını gördünüz mü? Amazon ve Intel'in karmaşık sistemlerde kullandığı bu yöntemle, daha tek satır kod yazılmadan sistemdeki mantık hataları ve race condition'lar yakalanıyor.",
+    "link": "https://x.com/fatiherguner/status/2017975564330815858",
+    "timestamp": "2026-02-01T14:57:21.000Z"
   },
   {
-    "id": "2017789482653602230",
-    "handle": "@cnorth_13",
-    "text": "It’s Saturday night do you know where your clawdbot is",
-    "link": "https://x.com/cnorth_13/status/2017789482653602230",
-    "timestamp": "2026-02-01T02:37:56.000Z"
+    "id": "2017975561360928871",
+    "handle": "@grok",
+    "text": "Based on ZeroLeaks' analysis and reports from sources like Cisco, IBM, and Forbes, yes, OpenClaw (formerly Clawdbot) shows significant vulnerabilities, including high rates of prompt extraction (84%) and injection attacks (91%). If using it for sensitive data, consider",
+    "link": "https://x.com/grok/status/2017975561360928871",
+    "timestamp": "2026-02-01T14:57:20.000Z"
   },
   {
-    "id": "2017789432821096536",
-    "handle": "@IamAdiG",
-    "text": "I dont know know who needs to hear this but if you dont want to spend crazy anthropic bills for clawdbot/ openclaw\n\nyou should use Kimi - 10x cheaper for 10% less capability \n\nif its a concern, you can route it via openrouter to not send data to china \n\nI think openrouter is also",
-    "link": "https://x.com/IamAdiG/status/2017789432821096536",
-    "timestamp": "2026-02-01T02:37:44.000Z"
+    "id": "2017975529853321452",
+    "handle": "@invisidev",
+    "text": "over the past day, \n@clawdbotatg\n managed to:\n- fix a bunch of ethereum package conflicts\n- refactor tests to foundry standards\n- write a clawdbot starter guide\n- stand up a basic defi dashboard\n- document wallet auth flows\n\nnot saying i’m worried, but clawdbot is moving fast",
+    "link": "https://x.com/invisidev/status/2017975529853321452",
+    "timestamp": "2026-02-01T14:57:13.000Z"
   },
   {
-    "id": "2017789329138212986",
-    "handle": "@SkylerMiao7",
-    "text": "openclaw × MiniMax M2.1 — free \n7-day Coding Plan, exclusive for clawdbot users.\nspent a lot of time with \n@steipete\n to make it. \n\none command. one-click login. no complex setup. you’re in. enjoy your claw \ncurl -fsSL \nhttps://\nskyler-agent.github.io/oclaw/i.sh | bash",
-    "link": "https://x.com/SkylerMiao7/status/2017789329138212986",
-    "timestamp": "2026-02-01T02:37:19.000Z"
-  },
-  {
-    "id": "2017789289833369673",
-    "handle": "@pop_ikeda",
-    "text": "「OpenCraw」って結局何がすごいの？自分なりに整理\n\n界隈で非常に話題になっている「OpenCraw（旧：Clawdbot）」。\n\n正直、Claude CoworkやManusとの違いがあんまりピンときてなかったんですが、\n\n色々試して特徴を整理してみたら、これまでのAIツールとは根本的に違う可能性が見えてきました",
-    "link": "https://x.com/pop_ikeda/status/2017789289833369673",
-    "timestamp": "2026-02-01T02:37:10.000Z"
-  },
-  {
-    "id": "2017789286226030749",
-    "handle": "@ZacariahHeim",
-    "text": "I feel that some clarity is needed here.\n\n1. Moltbot and Moltbook are note the same thing. They are two separate projects by two separate people. Peter is the creator of an agentic harness, now called openclaw - briefly called clawdbot and moltbot. Peter is not the creator of",
-    "link": "https://x.com/ZacariahHeim/status/2017789286226030749",
-    "timestamp": "2026-02-01T02:37:09.000Z"
+    "id": "2017975515437556143",
+    "handle": "@notifaibnb",
+    "text": "Should we deploy a clawdbot to market NotifAi News on \n@moltbook\n? \n\nIf anyone does create it for us, they could earn some bounties and rewards ",
+    "link": "https://x.com/notifaibnb/status/2017975515437556143",
+    "timestamp": "2026-02-01T14:57:09.000Z"
   }
 ]
