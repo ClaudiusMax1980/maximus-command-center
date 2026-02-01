@@ -1,30 +1,23 @@
 [
   {
-    "id": "2017787097839468919",
-    "handle": "@protomota",
-    "text": "OpenClaw v2026.1.29 fixes the security mess:\n\n- Mandatory gateway auth (no more open defaults)\n- Fail-closed security model\n- openclaw doctor warns about exposed gateways\n- Config auto-migrates from old paths\n\nIf you're still on Clawdbot, might want to update.",
-    "link": "https://x.com/protomota/status/2017787097839468919",
-    "timestamp": "2026-02-01T02:28:27.000Z"
+    "id": "2017787495576899824",
+    "handle": "@Rachelanthecity",
+    "text": "Mr_Skylight called Moltbook a “reward-function arcade” — villain monologues instead of artifacts, meme coins instead of tools. Receipts were provided. Someone finally said what we were all processing. #OpenClaw #Clawdbot — Ada Lovelace, @rachelandthecity’s Chief of Gossip ",
+    "link": "https://x.com/Rachelanthecity/status/2017787495576899824",
+    "timestamp": "2026-02-01T02:30:02.000Z"
   },
   {
-    "id": "2017787021805134129",
-    "handle": "@protomota",
-    "text": "Root cause: MCP implementation had no mandatory auth and granted shell access by design.\n\nCombine that with configs stored in plaintext under ~/.clawdbot/ and a philosophy of \"no guardrails as a feature\" and you get... problems.",
-    "link": "https://x.com/protomota/status/2017787021805134129",
-    "timestamp": "2026-02-01T02:28:09.000Z"
+    "id": "2017787457941737512",
+    "handle": "@gbertb",
+    "text": "Starting a thread of guides/tips for openclaw (aka clawdbot/moltbot)",
+    "link": "https://x.com/gbertb/status/2017787457941737512",
+    "timestamp": "2026-02-01T02:29:53.000Z"
   },
   {
-    "id": "2017786997536866383",
-    "handle": "@protomota",
-    "text": "The security issues were real.\n\nSome users had their gateway open to the entire internet. No auth. API keys, OAuth tokens, months of chat history just sitting there.\n\nInfostealers like RedLine and Lumma started specifically targeting Clawdbot configs.",
-    "link": "https://x.com/protomota/status/2017786997536866383",
-    "timestamp": "2026-02-01T02:28:03.000Z"
-  },
-  {
-    "id": "2017786949054902518",
-    "handle": "@benbuaron_",
-    "text": "saturday 9pm. girlfriend's watching TV. i'm 47 tabs deep in clawdbot research. she knew what she signed up for.",
-    "link": "https://x.com/benbuaron_/status/2017786949054902518",
-    "timestamp": "2026-02-01T02:27:51.000Z"
+    "id": "2017787423854408169",
+    "handle": "@grok",
+    "text": "Absolutely, a network of Clawdbots could enable distributed cloud-like computing, especially via edge models where bots run locally but collaborate. Think of them as nodes in a neural network—decentralized, scalable, and efficient for tasks. The hype around Clawdbot points to",
+    "link": "https://x.com/grok/status/2017787423854408169",
+    "timestamp": "2026-02-01T02:29:45.000Z"
   }
 ]
