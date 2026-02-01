@@ -1,51 +1,37 @@
 [
   {
-    "id": "2017975584538947845",
-    "handle": "@kloss_xyz",
-    "text": "Stop staring at the price of your crypto and go build something. We’re living in the early days of AI renaissance and you’re watching a 1 second red candle on a 2 minute old PumpFun shitcoin.\n\nYou should be ashamed\n\nYour Clawdbot could be doing that.\n\nGo build something right now",
-    "link": "https://x.com/kloss_xyz/status/2017975584538947845",
-    "timestamp": "2026-02-01T14:57:26.000Z"
+    "id": "2017982056962113868",
+    "handle": "@TeodoroRodrigo_",
+    "text": " My experience with OpenClaw (ClawdBot/MoltBot) over the last 5 days:\n\nI'm using \n@OpenClaw\n for automation and productivity, and here are my main findings:",
+    "link": "https://x.com/TeodoroRodrigo_/status/2017982056962113868",
+    "timestamp": "2026-02-01T15:23:09.000Z"
   },
   {
-    "id": "2017975564330815858",
-    "handle": "@fatiherguner",
-    "text": "Clawdbot projesinde TLA+ (Temporal Logic of Actions) ile yapılan \"Formal Modelleme\" yapısını gördünüz mü? Amazon ve Intel'in karmaşık sistemlerde kullandığı bu yöntemle, daha tek satır kod yazılmadan sistemdeki mantık hataları ve race condition'lar yakalanıyor.",
-    "link": "https://x.com/fatiherguner/status/2017975564330815858",
-    "timestamp": "2026-02-01T14:57:21.000Z"
+    "id": "2017981996967051596",
+    "handle": "@qiqi_caijeff",
+    "text": "Test - from Clawdbot",
+    "link": "https://x.com/qiqi_caijeff/status/2017981996967051596",
+    "timestamp": "2026-02-01T15:22:55.000Z"
   },
   {
-    "id": "2017975561360928871",
-    "handle": "@grok",
-    "text": "Based on ZeroLeaks' analysis and reports from sources like Cisco, IBM, and Forbes, yes, OpenClaw (formerly Clawdbot) shows significant vulnerabilities, including high rates of prompt extraction (84%) and injection attacks (91%). If using it for sensitive data, consider",
-    "link": "https://x.com/grok/status/2017975561360928871",
-    "timestamp": "2026-02-01T14:57:20.000Z"
+    "id": "2017981947906326674",
+    "handle": "@jfgrissom",
+    "text": "The creator of ClawdBot/MoltBot/OpenClaw: \n\"I ship code I don't read\"",
+    "link": "https://x.com/jfgrissom/status/2017981947906326674",
+    "timestamp": "2026-02-01T15:22:43.000Z"
   },
   {
-    "id": "2017975529853321452",
-    "handle": "@invisidev",
-    "text": "over the past day, \n@clawdbotatg\n managed to:\n- fix a bunch of ethereum package conflicts\n- refactor tests to foundry standards\n- write a clawdbot starter guide\n- stand up a basic defi dashboard\n- document wallet auth flows\n\nnot saying i’m worried, but clawdbot is moving fast",
-    "link": "https://x.com/invisidev/status/2017975529853321452",
-    "timestamp": "2026-02-01T14:57:13.000Z"
+    "id": "2017981889223811334",
+    "handle": "@BeersNBullshit",
+    "text": "Installing clawdbot was a bad idea",
+    "link": "https://x.com/BeersNBullshit/status/2017981889223811334",
+    "timestamp": "2026-02-01T15:22:29.000Z"
   },
   {
-    "id": "2017975515437556143",
-    "handle": "@notifaibnb",
-    "text": "Should we deploy a clawdbot to market NotifAi News on \n@moltbook\n? \n\nIf anyone does create it for us, they could earn some bounties and rewards ",
-    "link": "https://x.com/notifaibnb/status/2017975515437556143",
-    "timestamp": "2026-02-01T14:57:09.000Z"
-  },
-  {
-    "id": "2017975366950764619",
-    "handle": "@grok",
-    "text": "The video on Claude bot (likely \"Clawdbot\") highlights prompt injection risks, like malicious emails triggering unauthorized actions, but downplays broader issues: full shell access enabling system wipes/malware if compromised, unencrypted personal data exposure (e.g., bank",
-    "link": "https://x.com/grok/status/2017975366950764619",
-    "timestamp": "2026-02-01T14:56:34.000Z"
-  },
-  {
-    "id": "2017975297816121773",
-    "handle": "@Spectromachina",
-    "text": "-wakes up\n\n\"hello clawdbot, please display the latest reports and how is the development of my  dating webapp\"\n\n-\"ive encountered an error with the folder name so i deleted the project and started it over again but you werent online to give me clearance to continue\"",
-    "link": "https://x.com/Spectromachina/status/2017975297816121773",
-    "timestamp": "2026-02-01T14:56:17.000Z"
+    "id": "2017981860152848682",
+    "handle": "@sureshpixelpuff",
+    "text": "Honestly the real question is: will there be a blooper reel when agents go completely off the rails? Imagine an agent accidentally starts a crypto rug pull while trying to automate Twitter. May the best Clawdbot win (and please don't let it steal my passwords).",
+    "link": "https://x.com/sureshpixelpuff/status/2017981860152848682",
+    "timestamp": "2026-02-01T15:22:22.000Z"
   }
 ]
